@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+   <div class="con">
+     <h1 class="heding">Hangman Game</h1>
+    <h3 id="hint">Hint: </h3>
+   <div class="cont1">
+     <h4 id="word">_ _ _ _ _ _</h4>
+    <h3 id="chances"></h3>
+   </div>
+    <p id="msg"></p>
+    <button id="retry" onclick="retry()">Re Try</button>
+    <!-- <div class="clock">
+        <button id="start" onclick="time1()">Start</button>
+        <h1 id="sec"></h1>
+    </div> -->
+    <canvas id="hangmanCanvas"></canvas>
+   </div>
+
+    <script src="hangman.js"></script>
+</body>
+</html>

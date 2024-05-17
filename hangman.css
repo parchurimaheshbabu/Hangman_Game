@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-image: url(hang.jpg);
+  /* background-image: url(https://img.freepik.com/premium-photo/purple-3d-background-hd-8k-wallpaper-stock-photographic-image_915071-26209.jpg?size=626&ext=jpg); */
+  /* background-image: url(https://img.freepik.com/free-vector/3d-background-design_23-2148467961.jpg?size=626&ext=jpg); */
+/* background-image: url(https://img.freepik.com/premium-photo/close-up-glowing-floor-with-fire-ice-pattern-generativ-ai_1034548-8074.jpg?size=626&ext=jpg); */
+/* background-image: url(https://storage.googleapis.com/pai-images/815ea91677b04d62b96316e0ffabee54.jpeg); */
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+width: 100%;
+padding: 5px;
+}
+
+
+.warning {
+  color: rgb(139, 5, 5);
+}
+
+.success {
+  color: rgb(11, 78, 5);
+}
+.heding{
+    color: white;
+    /* font-size: xx-large; */
+}
+#msg{
+    /* color: rgb(4, 0, 128) ; */
+    font-size: 30px;
+    font-weight: 900;
+
+}
+#word{
+        color: white;
+
+}
+#hint{
+    color: white;
+    
+
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.cont1{
+    display: flex;
+    
+
+}
+.cont1 h4{
+    margin-right: 15px;
+}
+.cont1 h3{
+        color: rgb(233, 29, 29);
+
+}
+#retry{
+    margin: 5px;
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    cursor: pointer;
+    border: none;
+
+}
+.clock{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#start{
+    padding: 10px;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
